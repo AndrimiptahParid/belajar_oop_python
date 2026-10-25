@@ -22,8 +22,12 @@ class Hero:
         return self.health
     
 hero1 = Hero("Superman", 100, 50, 20)
-hero2 = Hero("Superman", 1000, 500, 200)
+hero2 = Hero("batman", 1000, 500, 200)
 
 hero1.siapa()
 hero1.healthUp(20)
 print(hero1.getHealth())
+
+hero2.siapa()
+hero2.healthUp(100)
+print(hero2.getHealth())
